@@ -18,3 +18,15 @@ The Harmonic Interference Resonator (HIR) is an experimental, open-source consci
 ---
 
 ## Repository Structure
+
+HIR-Interface/
+├── hardware_interfaces/        # EEG + biosensor input
+├── processing/                 # Signal filtering + coherence analysis
+├── modulation/                 # EM field modulation logic
+├── visualization/              # Unity scene & dashboard
+├── logging/                    # Data + anomaly logs
+├── simulations/                # Quantum interaction mockups
+├── LICENSE_MIT.txt             # Code license
+├── LICENSE_CC_BY_NC.txt        # Media/docs license
+├── README.md                   # You are here
+└── requirements.txt            # Python dependencies
